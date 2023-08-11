@@ -1,12 +1,10 @@
-/*   finds length   */
+
 size([], N, Len) :-
     Len is N.
 
 size([H|T], N, Len) :-
     size(T, N, L2),
     Len is 1+L2.
-
-/*   check for even or odd list   */
 test(Num, S) :-
     S is mod(Num, 2),
     (
