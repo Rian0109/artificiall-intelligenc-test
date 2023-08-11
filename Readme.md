@@ -1,10 +1,7 @@
 # A repository for Artificial Intelligance (AI)   
 
 ![banner](./assets/banner.png)  
-A series of programs implemented in `prolog`  
-
-## Practical List    
-Click here to see the [practical list](Prolog-Programming/src/practicals/LIST%20OF%20PRACTICALS%20SEM%20VI.pdf)    
+A series of programs implemented in `prolog`   
 
 ---
 
