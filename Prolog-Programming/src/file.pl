@@ -11,6 +11,8 @@ read_file(File) :-
 
 process_file(end_of_file, _) :- !.
 
+process_file(_, end_of_file) :- !.
+
 process_file(Char1, Streem) :- 
     write(Char1),
     get_char(Streem, Char1),
